@@ -63,5 +63,4 @@ contract Election is Ownable {
         emit Voted(msg.sender, _candidateId);
     }
     
-    // Vous pouvez ajouter d'autres fonctions relatives à la gestion de l'élection si nécessaire.
 }
